@@ -108,6 +108,38 @@ footer p {
   color: #f2f2f2;
 }
 
+#address {
+  color: white;
+  text-transform: none;
+}
+
+#copyright {
+  color: white;
+}
+
+footer.inner ul li {
+  float: left;
+  height: 10px;
+  line-height: 10px;
+  margin: 5px 0;
+  padding: 0 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+footer.inner ul li.pipe {
+    border-right: solid 1px white; 
+}
+
+footer.inner ul li.last {
+    border-right: none;
+}
+
+footer.inner ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
   color: #007edf;
